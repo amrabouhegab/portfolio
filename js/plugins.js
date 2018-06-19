@@ -28,4 +28,9 @@ $(function () {
         });
         
     })
+    $(window).resize(function() {
+        //Adjust Height of Portfolio Pictures
+        $('.portfolio .pic').css('height', $('.portfolio .item-body').innerHeight())
+    })
+   
 });
